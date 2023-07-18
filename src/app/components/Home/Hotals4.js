@@ -5,9 +5,9 @@ import Food1 from "@/app/assets/Food-1.jpg";
 import Food2 from "@/app/assets/Food-2.jpg";
 import Food3 from "@/app/assets/Food-3.jpg";
 
-const HotalDetails = () => {
+const HotalDetails4 = () => {
   return (
-    <div className="">
+    <div className="mb-[16%]">
       {/* Banner */}
       <div className="relative w-full h-[400%] sm:h-[900px]">
         <Image
@@ -56,7 +56,7 @@ const HotalDetails = () => {
             </ul>
           </div>
         </div>
-        <div className="absolute p-2 rounded-t-xl bottom-0 ml-[00%] w-[40%] bg-blue-700 sm:ml-[5%] sm:w-[80%]">
+        <div className="absolute p-2  rounded-t-xl bottom-0 ml-[00%] w-[40%] bg-blue-700 sm:ml-[5%] sm:w-[80%]">
           <div className="text-white">
             <div className="flex justify-around items-center p-2">
               <h1 className="">Contact us</h1>
@@ -71,4 +71,4 @@ const HotalDetails = () => {
   );
 };
 
-export default HotalDetails;
+export default HotalDetails4;
