@@ -9,7 +9,7 @@ const HotalDetails = () => {
   return (
     <div className="">
       {/* Banner */}
-      <div className="relative w-full h-[400%] sm:h-[900px]">
+      <div className="relative w-full h-[400%] sm:h-[650px] md:h-[600px]">
         <Image
           src={Hotals}
           className="absolute inset-0 w-full h-full object-cover"
@@ -34,9 +34,9 @@ const HotalDetails = () => {
           <div className="">
             <Image
               src={Food2}
-              className="rounded-full h-[400px] w-[400px]  border-t-[50px] border-r-[40px] border-l-[45px]  border-orange-500"
+              className="rounded-full h-[400px] w-[400px]  border-t-[45px] border-r-[35px] border-l-[35px]  border-orange-500"
             />
-            <h1 className="text-center">Hotal 2</h1>
+            <h1 className="text-center">Hotal 3</h1>
           </div>
         </div>
         <div className=" ">
@@ -56,7 +56,7 @@ const HotalDetails = () => {
             </ul>
           </div>
         </div>
-        <div className="absolute p-2 rounded-t-xl bottom-0 ml-[00%] w-[40%] bg-blue-700 sm:ml-[5%] sm:w-[80%]">
+        <div className=" absolute p-2 rounded-t-xl bottom-0 ml-[00%] w-[40%] bg-blue-700 sm:ml-[5%] sm:w-[80%]">
           <div className="text-white">
             <div className="flex justify-around items-center p-2">
               <h1 className="">Contact us</h1>

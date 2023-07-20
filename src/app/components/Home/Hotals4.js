@@ -9,7 +9,7 @@ const HotalDetails4 = () => {
   return (
     <div className="mb-[16%]">
       {/* Banner */}
-      <div className="relative w-full h-[400%] sm:h-[900px]">
+      <div className="relative w-full h-[400%] sm:h-[800px]">
         <Image
           src={Hotals}
           className="absolute inset-0 w-full h-full object-cover"
@@ -22,26 +22,26 @@ const HotalDetails4 = () => {
               src={Food1}
               className="rounded-full h-[200px] w-[200px] border-t-[30px] border-r-[20px] border-l-[20px]  border-orange-500"
             />
-            <h1 className="text-center">Hotal 1</h1>
+            <h1 className="text-center">Hotal 4</h1>
           </div>
           <div className="">
             <Image
               src={Food2}
               className="rounded-full h-[300px] w-[300px] border-t-[40px] border-r-[30px] border-l-[30px]  border-orange-500"
             />
-            <h1 className="text-center">Hotal 2</h1>
+            <h1 className="text-center">Hotal 5</h1>
           </div>
           <div className="">
             <Image
               src={Food2}
               className="rounded-full h-[400px] w-[400px]  border-t-[50px] border-r-[40px] border-l-[45px]  border-orange-500"
             />
-            <h1 className="text-center">Hotal 2</h1>
+            <h1 className="text-center">Hotal 6</h1>
           </div>
         </div>
         <div className=" ">
           <div className="absolute">
-            <h1 className="text-bold text-[3rem]">Location 2</h1>
+            <h1 className="text-bold text-[3rem]">Location 6</h1>
             <h1>Lunch & Drinks</h1>
           </div>
           <div className="ml-[60%] mt-10">

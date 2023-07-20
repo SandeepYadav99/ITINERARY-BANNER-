@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Footer1 from "@/app/assets/Footer.jpg";
 import Pepole from "@/app/assets/Footer-1f.jpg";
+
 const Footer = () => {
   return (
     <div className=" relative xl:mt-[10%] lg:mt-[15%] md:mt-[20%] sm:mt-[25%] ">
