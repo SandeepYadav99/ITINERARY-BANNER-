@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <div className=" relative xl:mt-[10%] lg:mt-[15%] md:mt-[20%] sm:mt-[25%] ">
       <div className="">
-        <Image src={Footer1} className="w-full xl:h-[600px] lg:h-[400px]" />
+        <Image src={Footer1} className="w-full xl:h-[800px] lg:h-[600px]" />
       </div>
-      <div className="bg-slate-200  text-white flex justify-between  items-center m-20 -mt-[35%]">
+      <div className="bg-slate-200  text-white flex justify-between  items-center m-20 -mt-[25%]">
         <div>
           <div className="p-2  border-none bg-blue-800 text-center rounded-sm text-white">
             <button className="text-2xl font-bold">BOOK NOW</button>
