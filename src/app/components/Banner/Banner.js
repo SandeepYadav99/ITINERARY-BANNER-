@@ -61,8 +61,6 @@ const Banner = () => {
               </defs>
             </svg>
           </div>
-
-          {/* 33333333333 */}
           <div className="-mt-[8%] -ml-[7%]">
             <div className="hexagone3 "></div>
             <svg
@@ -95,7 +93,9 @@ const Banner = () => {
             <h1 className="text-2xl">TRAVEL TO</h1>
             <h1 className="text-[5rem] font-bold text-blue-700">DUBAI</h1>
             <div className="">
-              <button className=" text-3xl cursor-pointer bg-blue-700 p-2 rounded-xl">BOOK NOW</button>
+              <button className=" text-3xl cursor-pointer bg-blue-700 p-2 rounded-xl">
+                BOOK NOW
+              </button>
             </div>
             <div className="mt-16">
               <p className="text-xl">+123-456-7890</p>
