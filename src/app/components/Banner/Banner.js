@@ -1,7 +1,12 @@
+"use client";
 import React from "react";
 import "./Banner.css";
 
 const Banner = () => {
+  const bookingHandler = () => {
+    alert('Book Now!')
+  };
+
   return (
     <div className="bg-gray-900 ">
       <div className="">
@@ -90,7 +95,10 @@ const Banner = () => {
             <h1 className="text-2xl">TRAVEL TO</h1>
             <h1 className="text-[5rem] font-bold text-blue-700">DUBAI</h1>
             <div className="">
-              <button className=" text-3xl cursor-pointer bg-blue-700 p-2 rounded-xl">
+              <button
+                onClick={() => bookingHandler()}
+                className=" text-3xl cursor-pointer bg-blue-700 p-3 rounded-lg"
+              >
                 BOOK NOW
               </button>
             </div>

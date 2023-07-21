@@ -12,6 +12,7 @@ const HotalDetails = () => {
       <div className="relative  h-[80%] sm:h-[30rem] md:h-[60rem] xl:h-screen lg:h-[50rem]">
         <Image
           src={Hotals}
+          alt="image"
           className="absolute inset-0 w-full h-full object-cover"
         />
       </div>
@@ -20,6 +21,7 @@ const HotalDetails = () => {
           <div className="border-orange-600">
             <Image
               src={Food1}
+              alt="image"
               className="rounded-full h-[200px] w-[200px] border-t-[30px] border-r-[20px] border-l-[20px]  border-orange-500"
             />
             <h1 className="text-center">Hotal 1</h1>
@@ -27,6 +29,7 @@ const HotalDetails = () => {
           <div className="">
             <Image
               src={Food2}
+              alt="image"
               className="rounded-full h-[300px] w-[300px] border-t-[40px] border-r-[30px] border-l-[30px]  border-orange-500"
             />
             <h1 className="text-center">Hotal 2</h1>
@@ -34,6 +37,7 @@ const HotalDetails = () => {
           <div className="">
             <Image
               src={Food2}
+              alt="image"
               className="rounded-full h-[400px] w-[400px]  border-t-[45px] border-r-[35px] border-l-[35px]  border-orange-500"
             />
             <h1 className="text-center">Hotal 3</h1>

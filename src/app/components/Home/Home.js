@@ -10,23 +10,37 @@ const Home = () => {
         <h1 className="text-bold text-2xl">LOGO HERE</h1>
       </header>
       <div className="sm:h-[60rem] lg:h-[70rem] h-[500%]">
-        <Image src={Dashboard} className="w-full h-1/2" />
+        <Image
+          src={Dashboard}
+          alt="image"
+          className="w-full h-1/2"
+         
+        />
       </div>
       <div className="flex justify-around items-center flex-wrap bottom-[15rem] -mt-[42rem] ">
         <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/4">
-          <Image src={Dubai} className="rounded-3xl border-8 border-white" />
-          <h1 className="text-center">Location 1</h1>
+          <Image
+            src={Dubai}
+            alt="image"
+            className="rounded-3xl border-8 border-white"
+          />
+          <h1 className="text-center text-2xl">Location 1</h1>
         </div>
         <div className="w-full  sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 -mt-20 ">
           <Image
             src={Dubai}
+            alt="image"
             className="rounded-3xl border-8 border-white mt-5 h-[20rem]"
           />
-          <h1 className="text-center">Location 2</h1>
+          <h1 className="text-center text-2xl">Location 2</h1>
         </div>
         <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4">
-          <Image src={Dubai} className="rounded-3xl border-8 border-white" />
-          <h1 className="text-center">Location 3</h1>
+          <Image
+            src={Dubai}
+            alt="image"
+            className="rounded-3xl border-8 border-white"
+          />
+          <h1 className="text-center text-2xl">Location 3</h1>
         </div>
       </div>
       <div className="mt-2 ml-10">
