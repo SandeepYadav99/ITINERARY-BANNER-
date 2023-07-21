@@ -1,8 +1,6 @@
 import React from "react";
-import Image from "next/image";
-import banner1 from "@/app/assets/Banner.jpg";
-import footer from "@/app/assets/B1.jpg";
 import "./Banner.css";
+
 const Banner = () => {
   return (
     <div className="bg-gray-900 ">
@@ -88,7 +86,6 @@ const Banner = () => {
               </defs>
             </svg>
           </div>
-
           <div className="text-white pl-[1px] -mt-10">
             <h1 className="text-2xl">TRAVEL TO</h1>
             <h1 className="text-[5rem] font-bold text-blue-700">DUBAI</h1>
