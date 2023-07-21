@@ -8,7 +8,7 @@ import Footer from "./components/Home/Footer";
 
 const Home = () => {
   return (
-    <div className="h-auto">
+    <div className="h-auto p-[2%]">
       <Banner />
       <Dashboard />
       <HotalDetails /> 
