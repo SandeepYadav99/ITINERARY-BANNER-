@@ -7,16 +7,16 @@ import Food3 from "@/app/assets/Food-3.jpg";
 
 const HotalDetails = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10 overflow-hidden">
       {/* Banner */}
-      <div className="relative w-full h-screen sm:h-[60rem] lg:h-[60rem]">
+      <div className="relative  h-[80%] sm:h-[30rem] md:h-[60rem] xl:h-screen lg:h-[50rem]">
         <Image
           src={Hotals}
           className="absolute inset-0 w-full h-full object-cover"
         />
       </div>
-      <div className="bg-[#FFF9ED]  w-full border-t-[20px]  border-l-[30px] border-orange-400 -mt-[20%] absolute p-[5%] rounded-tl-[70%] ">
-        <div className="flex justify-end items-end -mt-[25%] right-0 left-0">
+      <div className="bg-[#FFF9ED] lg:-mt-[30rem] w-[96%] border-t-[20px]  border-l-[30px] border-orange-400 -mt-[20%]  absolute p-[5%] rounded-tl-[70%] ">
+        <div className="flex justify-end items-end -mt-[25%] ">
           <div className="border-orange-600">
             <Image
               src={Food1}
@@ -41,15 +41,15 @@ const HotalDetails = () => {
         </div>
         <div className=" ">
           <div className="absolute">
-            <h1 className="text-bold text-[3rem]">Location 2</h1>
-            <h1>Lunch & Drinks</h1>
+            <h1 className="text-bold text-[4rem] text-black">Location 2</h1>
+            <h1 className="text-3xl text-bold text-black">Lunch & Drinks</h1>
           </div>
-          <div className="ml-[60%] mt-10">
-            <h1 className="text-bold text-3xl">Hotal 1</h1>
-            <p className="text-bold text-xl">
+          <div className="ml-[60%] mt-10 ">
+            <h1 className="text-bold text-[3rem]">Hotal 1</h1>
+            <p className="text-bold text-2xl">
               Hotel 1 description and other details
             </p>
-            <ul>
+            <ul className="text-2xl">
               <li>1. food1</li>
               <li>2. food2</li>
               <li>3. food3</li>
@@ -59,10 +59,10 @@ const HotalDetails = () => {
         <div className=" absolute p-2 rounded-t-xl bottom-0 ml-[00%] w-[40%] bg-blue-700 sm:ml-[5%] sm:w-[80%]">
           <div className="text-white">
             <div className="flex justify-around items-center p-2">
-              <h1 className="">Contact us</h1>
-              <p className="">+123-456-7890</p>
-              <p className="">www.hotal1.com</p>
-              <p className="">@reallygreatsite</p>
+              <h1 className="text-3xl">Contact us</h1>
+              <p className="text-3xl">+123-456-7890</p>
+              <p className="text-3xl">www.hotal1.com</p>
+              <p className="text-3xl">@reallygreatsite</p>
             </div>
           </div>
         </div>

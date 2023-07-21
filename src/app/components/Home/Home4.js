@@ -5,7 +5,7 @@ import Dashboard from "@/app/assets/h-1.jpg";
 
 const Home4 = () => {
   return (
-    <div className="mt-[2%] relative ">
+    <div className="mt-[8%]   relative ">
       <header className="ml-2 bg-blue-900 p-[3%] border-opacity-25 flex border-blue-50 border-b-8 border-r-8 items-center justify-center w-[12%] h-[12%] rounded-br-[40px] text-white absolute top-0 left-0">
         <h1 className="text-bold text-2xl">LOGO HERE</h1>
       </header>
