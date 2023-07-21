@@ -7,9 +7,9 @@ import Food3 from "@/app/assets/Food-3.jpg";
 
 const HotalDetails = () => {
   return (
-    <div className="">
+    <div className="mt-10">
       {/* Banner */}
-      <div className="relative w-full h-[400%] sm:h-[650px] md:h-[600px]">
+      <div className="relative w-full h-screen sm:h-[60rem] lg:h-[60rem]">
         <Image
           src={Hotals}
           className="absolute inset-0 w-full h-full object-cover"
@@ -17,7 +17,7 @@ const HotalDetails = () => {
       </div>
       <div className="bg-[#FFF9ED]  w-full border-t-[20px]  border-l-[30px] border-orange-400 -mt-[20%] absolute p-[5%] rounded-tl-[70%] ">
         <div className="flex justify-end items-end -mt-[25%] right-0 left-0">
-          <div className=" border-orange-600">
+          <div className="border-orange-600">
             <Image
               src={Food1}
               className="rounded-full h-[200px] w-[200px] border-t-[30px] border-r-[20px] border-l-[20px]  border-orange-500"
