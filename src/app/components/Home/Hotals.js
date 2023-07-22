@@ -16,7 +16,7 @@ const HotalDetails = () => {
           className="absolute inset-0 w-full h-full object-cover"
         />
       </div>
-      <div className="bg-[#FFF9ED] lg:-mt-[30rem] w-[96%] border-t-[20px]  border-l-[30px] border-orange-400 -mt-[20%]  absolute p-[5%] rounded-tl-[70%] ">
+      <div className="bg-[#FFF9ED]  lg:-mt-[30rem] w-[96%] border-t-[20px]  border-l-[30px] border-orange-400 -mt-[20%]  absolute p-[5%] rounded-tl-[70%] ">
         <div className="flex justify-end items-end -mt-[25%] ">
           <div className="border-orange-600">
             <Image
